@@ -1,8 +1,8 @@
 package types
 
 type Schema struct {
-	ID     string
-	Name   string
-	Desc   string
-	Fields []Field
+	ID     string  `json:"id"`
+	Name   string  `json:"name"`
+	Desc   string  `json:"desc"`
+	Fields []Field `json:"fields"`
 }
